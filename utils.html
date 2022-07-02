@@ -1,0 +1,9 @@
+
+
+expot const $ = query => document.querySelector( qurey )
+expot const $$ = query => [ ...document.querySelectorAll( qurey ) ]
+expot const $$$ = (element , query) => element.document.querySelector( qurey )
+expot const deepclone = obj => JSON.parse( JSON.stringfy( obj ) )
+
+window.$ = $
+window.$$ = $$
